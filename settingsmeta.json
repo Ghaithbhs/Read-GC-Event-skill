@@ -1,0 +1,81 @@
+{
+    "name": "Focus Bus schedule & path",
+    "skillMetadata": {
+        "sections": [
+             {
+                "name": "Skill description",
+                "fields": [
+                    {
+                        "type": "label",
+                        "label": "This skill allows the employees of focus to know the bus schedule, to edit it just fill in the new information regarding the bus schedule"
+                    }
+                ]
+            },
+            {
+                "name": "Morning Bus time",
+                "fields": [
+                    {
+                        "type": "label",
+                        "label": "This skill allows the employees of focus to know the bus schedule, to edit it just fill in the new information regarding the bus schedule"
+                    },
+                    {
+                        "name": "td",
+                        "type": "text",
+                        "label": "Departure time",
+                        "value": "7:30"
+                    },
+                    {
+                        "name": "ta",
+                        "type": "text",
+                        "label": "Arrival time",
+                        "value": "8:30"
+                    },
+                    {
+                        "name": "dl",
+                        "type": "text",
+                        "label": "Departure location",
+                        "value": "Bardo"
+                    }
+                ]
+            },
+            {
+                "name": "Evening Bus time",
+                "fields": [
+                    {
+                        "name": "tde",
+                        "type": "text",
+                        "label": "Departure time",
+                        "value": "18:00"
+                    },
+                    {
+                        "name": "ls",
+                        "type": "text",
+                        "label": "Last stop",
+                        "value": "bardo"
+                    }
+                ]
+            },
+            {
+                "name": "Bus general information",
+                "fields": [
+                    {
+                        "type": "label",
+                        "label": "This skill allows the employees of focus to know the bus schedule, to edit it just fill in the new information regarding the bus schedule"
+                    },
+                    {
+                        "name": "nb",
+                        "type": "text",
+                        "label": "Number of buses",
+                        "value": "2"
+                    },
+                    {
+                        "name": "np",
+                        "type": "text",
+                        "label": "Numbre of seats",
+                        "value": "50"
+                    }
+                ]
+            }
+        ]
+    }
+}
